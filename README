@@ -1,0 +1,33 @@
+cgen - C project generator
+==========================
+
+cgen is a tiny project generator that create a C project with Makefile support.
+
+INSTALL
+=======
+
+To install, clone this repo to you local machine:
+
+  git clone http://github.com/huytd/cgen
+
+Navigate to cgen folder and build the project:
+
+  cd cgen
+  make
+
+After build successfully, install cgen with:
+
+  make install
+
+You can uninstall cgen anytime with:
+
+  make uninstall
+
+USAGE
+=====
+
+Navigate to a folder you want your project will be created in, type:
+
+  cgen <project-name>
+
+Make sure that you have write permission to that folder before execute cgen.
